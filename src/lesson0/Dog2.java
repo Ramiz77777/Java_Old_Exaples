@@ -1,6 +1,6 @@
 package lesson0;
 
-public class dog2 {
+public class Dog2 {
     String name;
 
     public void voice(){

@@ -1,8 +1,8 @@
 package lesson1;
 
-public class dogdemo {
+public class Dogdemo {
     public static void main(String[] args) {
-        dog dog1 = new dog();
+        Dog dog1 = new Dog();
         dog1.name = "zevs";
         System.out.println(dog1.name);
 
