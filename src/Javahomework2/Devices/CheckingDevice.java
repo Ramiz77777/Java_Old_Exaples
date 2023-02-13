@@ -12,16 +12,22 @@ public class CheckingDevice {
         double Temperatur1 = scanner.nextDouble();
         System.out.println("Enter please second degrees");
         double Temperatur2 = scanner.nextDouble();
+        chektemp(Temperatur1, Temperatur2);
+
+    }
+
+    private static void chektemp(double Temperatur1, double Temperatur2) {
         if(Temperatur1 > 100 && Temperatur2 < 100){
             System.out.println("device work correkt");
         } else if (Temperatur1 > 100 && Temperatur2 > 100) {
             System.out.println("device work not correct");
-        } if (Temperatur1 < 100 && Temperatur2 < 100) {
+        }
+        if (Temperatur1 < 100 && Temperatur2 < 100) {
             System.out.println("device work not correct");
         } else if (Temperatur1 == 100 || Temperatur2 == 100){
             System.out.println("attention in two flasks is 100 degrees ");
         }
-
     }
+
 
 }
