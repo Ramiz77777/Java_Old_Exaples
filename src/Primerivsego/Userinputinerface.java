@@ -1,4 +1,4 @@
-package Primeri;
+package Primerivsego;
 
 import java.util.Scanner;
 

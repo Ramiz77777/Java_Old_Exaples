@@ -1,4 +1,4 @@
-package Primeri;
+package Primerivsego;
 
 public class Dog {
     String name;

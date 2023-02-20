@@ -1,4 +1,4 @@
-package Primeri;
+package Primerivsego;
 
 public class Catstaticinfo {
     Catstatic kot1 = new Catstatic("roma",28);

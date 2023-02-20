@@ -1,6 +1,4 @@
-package Primeri;
-
-import java.util.Scanner;
+package Primerivsego;
 
 public class Main {
     public static void main(String[] args) {

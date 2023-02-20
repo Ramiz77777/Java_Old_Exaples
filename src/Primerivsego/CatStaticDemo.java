@@ -1,4 +1,4 @@
-package Primeri;
+package Primerivsego;
 
 public class CatStaticDemo {
     public static void main(String[] args) {

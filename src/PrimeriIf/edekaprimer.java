@@ -18,6 +18,7 @@ public class edekaprimer {
 //                System.out.println("Rewe and Edeka is open you can choose");
 //            }else{
 //                System.out.println("You can go in one open markt");
+//    sodsd
 //            }
 
 
