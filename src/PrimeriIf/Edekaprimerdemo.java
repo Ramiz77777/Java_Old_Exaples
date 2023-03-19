@@ -1,10 +1,8 @@
 package PrimeriIf;
 
-import java.util.Scanner;
-
-public class edekaprimerdemo {
+public class Edekaprimerdemo {
     public static void main(String[] args) {
-        edekaprimer fakt = new edekaprimer();
+        Edekaprimer fakt = new Edekaprimer();
 //        fakt.pokupka;
 //        fakt.isedekaopen;
 //        fakt.isreweopen;

@@ -1,35 +1,72 @@
 package Primerivsego.massivi;
 
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
-import java.util.Random;
 
 public class massiviprimitivniye {
     public static void main(String[] args) {
-            int[] massiv = new int[3];
-            massiv[0] = 5;
-            massiv[1] = 2;
-            massiv[2] = 3;
-        for (int i = 0; i < massiv.length ; i++) {
-
-        }
-        System.out.println(Arrays.toString(massiv));
-        int min = massiv[0];
-        for (int i = 0; i < massiv.length; i++) {
-            if(massiv[i] < min){
-                min = massiv[i];
-            }
-        }
-        System.out.println("minimalniy massiv; " + min);
+        Catt[] array = new Catt[2];                                 //esli 3 masssiva pocemu null ne pokazivayet takje i 1
+        Catt cat1 = new Catt(1,"bobik");
+        Catt cat2 = new Catt(2,"tuzik");
+//        System.out.println(cat1.id + cat1.name);
+        array[0] = cat1;                            //vse cto tut est on kopiruyet v array[0] pocemu obrasheniye ne cerez array.to string ?
+        array[1] = cat2;
+        for (int i = 0; i <array.length ; i++) {              //i++ = i+1 oshibka ?
+            System.out.println(array[i].id + " " + array[i].id);         //pocemu pri array id + array id on plusuyet
         }
 
-
         }
+    }
+            
 
 
 
+//        System.out.println(Arrays.toString(massiv));//    double[] massiv = new double[2];
+//        massiv[0] = 44444444;
+//                massiv[1] = 3444444444;
+//                double summamassiva = 0;
+//                for (double i = 0; i <massiv.length; i++) {
+//        summamassiva = summamassiva + massiv[i];
+//        }
+//        System.out.println(Arrays.toString(massiv));
 
+
+//    }
+
+
+//    int[] arrays = {1,2,3,4,5,6,7,8,9,10};
+//        System.out.println(Arrays.toString(arrays));
+//        for (int i = 0; i < arrays.length; i++) {
+//            if(i % 2 == 0){
+//                arrays[i] = arrays[i] * 2;
+//            }
+////            System.out.println(Arrays.toString(arrays));
+//        }
+//        System.out.println(Arrays.toString(arrays));
+
+
+//
+//public static void main(String[] args) {
+//        int[] massivint = new int[3];
+//        massivint[0] = 50;
+//        massivint[1] = 20;
+//        massivint[2] = -10;
+//        int min = massivint[0];
+//        for (int i = 0; i < massivint.length; i++) {
+//        if (massivint[i] < min) {
+//        min = massivint[i];
+//        }
+//
+//        }
+//        System.out.println(min);
+//
+//        int max = massivint[0];
+//        for (int i = 0; i < massivint.length; i++) {
+//        if (massivint[i] > max) {
+//        max = massivint[i];
+//        }
+//        }
+//        System.out.println(max);
 
 
 

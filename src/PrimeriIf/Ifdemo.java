@@ -1,6 +1,6 @@
 package PrimeriIf;
 
-public class ifdemo {
+public class Ifdemo {
     public static void main(String[] args) {
         int p = 111;
         if(p == 100){

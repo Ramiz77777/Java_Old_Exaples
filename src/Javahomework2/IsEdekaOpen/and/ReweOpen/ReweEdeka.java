@@ -12,15 +12,25 @@ public class ReweEdeka {
         System.out.println("is Rewe open?");
         boolean isreweopen = scaner.nextBoolean();
 
-
-        if (true != pokupka) {
-            System.out.println("im so sorry i can not help you you cant walk ");
-
-        }else if(isedekaopen && isreweopen){
-            System.out.println("Rewe and Edeka is open you can choose");
-        }else{
-            System.out.println("You can go in one open markt");
+        if(isedekaopen && isreweopen){
+            System.out.println("you can go in edeka and rewe market");
+        } else if (isedekaopen && !isreweopen) {
+            System.out.println("you can go only in edeka");
+        } else if (isreweopen && !isedekaopen) {
+            System.out.println("you can go only in rewe");
+        }else {
+            System.out.println("seat at home today is sunday");
         }
+
+
+//        if (true != pokupka) {
+//            System.out.println("im so sorry i can not help you you cant walk ");
+//
+//        }else if(isedekaopen && isreweopen){
+//            System.out.println("Rewe and Edeka is open you can choose");
+//        }else{
+//            System.out.println("You can go in one open markt");
+//        }
 
 
     }

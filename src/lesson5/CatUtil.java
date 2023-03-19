@@ -10,7 +10,7 @@ public class CatUtil {
         boolean catHungry = ui.userInputBoolean("Is cat hungry? "); // doljen polucit danniye o tom cto golodniy
 
         Cat newCat = new Cat(catName,catColor,catAge,catHungry); //ispolzovat eti danniye ctobi sozdat novuyu koshku
-        System.out.println("Create new cat - "+newCat);
+        System.out.println("Create new cat - " + newCat);
 
 
         return newCat; // vozvratit znaceniye etoy koshki

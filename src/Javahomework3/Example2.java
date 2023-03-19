@@ -11,6 +11,7 @@ public class Example2 {
         int[] arrays = {14,22,33,44,66};
         System.out.println(Arrays.toString(arrays));
 
+
             
         }
     }

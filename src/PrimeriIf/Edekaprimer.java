@@ -2,7 +2,7 @@ package PrimeriIf;
 
 import java.util.Scanner;
 
-public class edekaprimer {
+public class Edekaprimer {
 
             Scanner scaner = new Scanner(System.in);
             boolean pokupka = scaner.nextBoolean();
