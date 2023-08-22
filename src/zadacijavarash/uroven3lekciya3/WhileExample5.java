@@ -22,23 +22,27 @@ package zadacijavarash.uroven3lekciya3;
  */
 public class WhileExample5 {
     public static void main(String[] args) {
-        int visota = 1;
-        while (visota <= 10) {
-            int dlina = 1;
-            while (dlina <= 20) {
-                if (visota == 1 || visota == 10) {
-                    System.out.print('Б');
-                } else if (dlina == 1 || dlina == 20) {
-                    System.out.print('Б');
-                } else {
-                    System.out.print(' ');
-                }
-                dlina++;
-            }
-            System.out.println();
-            visota++;
+
 
         }
-    }
+//        int visota = 1;
+//        while (visota <= 10) {
+//            int dlina = 1;
+//            while (dlina <= 20) {
+//                if (visota == 1 || visota == 10) {
+//                    System.out.print('Б');
+//                } else if (dlina == 1 || dlina == 20) {
+//                    System.out.print('Б');
+//                } else {
+//                    System.out.print(' ');
+//                }
+//                dlina++;
+//            }
+//            System.out.println();
+//            visota++;
+//
+//        }
+//    }
 
     }
+

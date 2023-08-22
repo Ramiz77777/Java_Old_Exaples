@@ -7,7 +7,6 @@ public class Dog {
     public void voice(String message){
         System.out.println("gav");
         System.out.println(message);
-
     }
     public void say(String message){
         System.out.println(message);

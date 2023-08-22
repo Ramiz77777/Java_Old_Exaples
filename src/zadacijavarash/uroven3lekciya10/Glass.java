@@ -29,15 +29,17 @@ true
  */
 public class Glass {
     public static void main(String[] args) {
-        double glass = 0.5;
-        System.out.println("Are you optimist? ");
-        Scanner scanner = new Scanner(System.in);
-        boolean optimist = scanner.nextBoolean();
-        if(optimist == true){
-            System.out.println((int)Math.ceil(glass));
-        }else {
-            System.out.println((int) Math.floor(glass));
-        }
+
+
+//        double glass = 0.5;
+//        System.out.println("Are you optimist? ");
+//        Scanner scanner = new Scanner(System.in);
+//        boolean optimist = scanner.nextBoolean();
+//        if(optimist == true){
+//            System.out.println((int)Math.ceil(glass));
+//        }else {
+//            System.out.println((int) Math.floor(glass));
+//        }
         }
 //    double glass = 0.5;
 //

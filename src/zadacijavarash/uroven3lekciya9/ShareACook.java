@@ -22,10 +22,11 @@ import java.util.Scanner;
  */
 public class ShareACook {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int firstinputnumber = scanner.nextInt();
-        int secondinputnumber = scanner.nextInt();
-        double result =  1.0 * firstinputnumber /  secondinputnumber;
-        System.out.println(result);
+
+//        Scanner scanner = new Scanner(System.in);
+//        int firstinputnumber = scanner.nextInt();
+//        int secondinputnumber = scanner.nextInt();
+//        double result =  1.0 * firstinputnumber /  secondinputnumber;
+//        System.out.println(result);
     }
 }

@@ -13,20 +13,39 @@ import java.util.Scanner;
  */
 public class WhileExample3hard {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int sum = 0;
-        boolean isExit = false;
-        while (!isExit) {
-            if (scanner.hasNextInt()) {
-                int number = scanner.nextInt();
-                sum = sum + number;
-            } else if (scanner.hasNextLine()) {
-                String line = scanner.nextLine();
-                if (line.equals("ENTER")) {
-                    isExit = true;
-                }
-            }
-        }
-        System.out.println(sum);
+//        Scanner scanner = new Scanner(System.in);
+//        boolean notexit = true;
+//        int sum = 0;
+//        while (notexit) {
+//            if (scanner.hasNextInt()) {
+//                sum = sum + scanner.nextInt();
+//            } else if (scanner.hasNextLine()) {
+//                String m = scanner.nextLine();
+//                if (m.equals("stop")){
+//                    notexit = false;
+//                }
+//            }
+//
+//        }
+//        System.out.println(sum);
+
+
+//        Scanner scanner = new Scanner(System.in);
+//        int sum = 0;
+//        boolean isExit = false;
+//        while (!isExit) {
+//            if (scanner.hasNextInt()) {
+//                int number = scanner.nextInt();
+//                sum = sum + number;
+//            } else if (scanner.hasNextLine()) {
+//                String line = scanner.nextLine();
+//                if (line.equals("ENTER")) {
+//                    isExit = true;
+//                }
+//            }
+//        }
+//        System.out.println(sum);
+//    }
+
     }
 }

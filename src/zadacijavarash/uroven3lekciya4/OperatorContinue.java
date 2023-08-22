@@ -11,31 +11,33 @@ package zadacijavarash.uroven3lekciya4;
  */
 public class OperatorContinue {
     public static void main(String[] args) {
-        int i = 0;
-        int summa = 0;
-        while (i < 100){
-            i++;
-            if( i % 3 == 0){
 
-                continue;
-            }
-            summa = summa + i;
-            System.out.println(summa);
-            System.out.println(i);
+//        int i = 0;
+//        int summa = 0;
+//        while (i < 100){
+//            i++;
+//            if( i % 3 == 0){
+//
+//                continue;
+//            }
+//            summa = summa + i;
+//            System.out.println(summa);
+//            System.out.println(i);
+//
+//        }
+//        int sum = 0;
+//        int number = 0;
+//        while (number <= 100) {
+//            if (number % 3 == 0) {
+//                number++;
+//                continue;
+//            }
+//            sum = sum + number;
+//            number++;
+//        }
+//        System.out.println(sum);
+//    }
 
-        }
-        int sum = 0;
-        int number = 0;
-        while (number <= 100) {
-            if (number % 3 == 0) {
-                number++;
-                continue;
-            }
-            sum = sum + number;
-            number++;
-        }
-        System.out.println(sum);
     }
-
-    }
+}
 

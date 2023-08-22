@@ -1,6 +1,4 @@
-package zadacijavarash.luroven2lekciya5;
-
-import lesson3.constructor.Person;
+package zadacijavarash.uroven2lekciya5;
 
 import java.util.Scanner;
 
@@ -27,18 +25,22 @@ import java.util.Scanner;
  */
 public class Koordinati {
     public static void main(String[] args) {
+
+
         Scanner scaner = new Scanner(System.in);
         int xcoordinate = scaner.nextInt();
         int yycoordinate = scaner.nextInt();
-        if(xcoordinate>0 && yycoordinate>0){
+        if (xcoordinate > 0 && yycoordinate > 0) {
             System.out.println("1");
-        } else if (xcoordinate<0 && yycoordinate>0) {
+        } else if (xcoordinate < 0 && yycoordinate > 0) {
             System.out.println("2");
-        } else if (xcoordinate<0 && yycoordinate<0) {
+        } else if (xcoordinate < 0 && yycoordinate < 0) {
             System.out.println("3");
-        }else if(xcoordinate>0 && yycoordinate<0) {
+        } else if (xcoordinate > 0 && yycoordinate < 0) {
             System.out.println("4");
         }
+    }
+}
 
 
 //        Scanner scanner = new Scanner(System.in);
@@ -53,7 +55,7 @@ public class Koordinati {
 //        }if(xcoordinate>0 && ycoordinate<0){
 //            System.out.println("4");
 //        }
-    }
 
 
-}
+
+

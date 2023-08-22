@@ -1,6 +1,4 @@
-package zadacijavarash.luroven2lekciya6;
-
-import java.util.Scanner;
+package zadacijavarash.uroven2lekciya6;
 
 /**
 В Java есть специальный метод для вычисления модуля числа — Math.abs():

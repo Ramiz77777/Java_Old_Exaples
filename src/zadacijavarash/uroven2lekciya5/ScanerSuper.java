@@ -1,4 +1,4 @@
-package zadacijavarash.luroven2lekciya5;
+package zadacijavarash.uroven2lekciya5;
 
 import java.util.Scanner;
 

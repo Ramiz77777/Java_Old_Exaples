@@ -1,4 +1,4 @@
-package zadacijavarash.luroven2lekciya8;
+package zadacijavarash.uroven2lekciya8;
 /*
 Амиго создал секретное слово для доступа к закрытой информации,
 но у него сломалась клавиатура, и теперь невозможно набирать буквы в верхнем регистре.
@@ -18,7 +18,19 @@ import java.util.Scanner;
 public class StringOperation {
     public static String secret = "AmIGo";
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+
+
+
+
+
+    {
+//        Scanner scanner = new Scanner(System.in);
+//        String code = secret.equalsIgnoreCase(scanner.nextLine()) ? "доступ разрешен" : "доступ запрещен";
+//        System.out.println(code);
+
+
+
 
 
 

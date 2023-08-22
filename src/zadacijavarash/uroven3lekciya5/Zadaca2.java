@@ -28,15 +28,24 @@ e
  */
 public class Zadaca2 {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int max = Integer.MIN_VALUE;
-        while (scan.hasNextInt()) {
-            int userinputnumber = scan.nextInt();
-            if (userinputnumber % 2 == 0 && userinputnumber > max) {
-                max = userinputnumber;
-            }
-        }
-        System.out.println(max);
+//        Scanner scanner = new Scanner(System.in);
+//        int max = Integer.MIN_VALUE;
+//        while (scanner.hasNextInt()){
+//            int console = scanner.nextInt();
+//            if(console % 2 == 0 && console > max){
+//                max = console;
+//            }
+//        }
+//        System.out.println(max);
+//        Scanner scan = new Scanner(System.in);
+//        int max = Integer.MIN_VALUE;
+//        while (scan.hasNextInt()) {
+//            int userinputnumber = scan.nextInt();
+//            if (userinputnumber % 2 == 0 && userinputnumber > max) {
+//                max = userinputnumber;
+//            }
+//        }
+//        System.out.println(max);
 
 
         }

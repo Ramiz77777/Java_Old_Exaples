@@ -22,15 +22,41 @@ import java.util.Scanner;
 •	В программе необходимо использовать цикл while.
  */
 public class WhileExample2 {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String userinputname = scanner.nextLine();
-        String text = " любит меня.";
-        int i = 1;
-        while (i <= 10 ){
-            System.out.println(i + userinputname + text);
-            i++;
+    public static void main(String[] args)
+
+
+
+
+    {
+//        Scanner scanner = new Scanner(System.in);
+//        String name = scanner.nextLine();
+//        String message = "любит меня";
+//        int count = 0;
+//        while (count < 10){
+//            System.out.println(name + message);
+//            count++;
+//        }
+
+
+
+//        Scanner scanner = new Scanner(System.in);
+//        String userinputname = scanner.nextLine();
+//        String text = " любит меня.";
+//        int i = 1;
+//        while (i <= 10 ){
+//            System.out.println(i + userinputname + text);
+//            i++;
 
 }
     }
-}
+
+
+
+
+
+
+
+
+
+
+

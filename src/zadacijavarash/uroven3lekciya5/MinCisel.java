@@ -27,14 +27,26 @@ e
  */
 public class MinCisel {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int min = Integer.MAX_VALUE;
-        while (scanner.hasNextInt()){
-            int console = scanner.nextInt();
-                if(console<min){
-                    min = console;
-                }
+//        Scanner scanner = new Scanner(System.in);
+//        int min = Integer.MAX_VALUE;
+//        while (scanner.hasNextInt()){
+//            int console = scanner.nextInt();
+//            if(console < min){
+//                min = console;
+//
+//                }
+//            }
+//        System.out.println(min);
         }
-        System.out.println(min);
+
+//        Scanner scanner = new Scanner(System.in);
+//        int min = Integer.MAX_VALUE;
+//        while (scanner.hasNextInt()){
+//            int console = scanner.nextInt();
+//                if(console<min){
+//                    min = console;
+//                }
+//        }
+//        System.out.println(min);
     }
-}
+

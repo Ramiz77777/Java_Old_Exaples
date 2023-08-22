@@ -18,25 +18,18 @@ QQQQQQQQQQ
  */
 public class WhileExample4 {
     public static void main(String[] args) {
+//        int stolbcov = 0;
+//        while (stolbcov<5){
+//            int strok = 0;
+//            while (strok<10){
+//                System.out.print("Q");
+//                strok++;
+//            }
+//            System.out.println("Q");
+//            stolbcov++;
+//        }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        }
 //        int qheight = 0;
 //        while(qheight < 5){
 //            int qlong = 1;
@@ -48,4 +41,4 @@ public class WhileExample4 {
 //            qheight++;
 //        }
     }
-}
+

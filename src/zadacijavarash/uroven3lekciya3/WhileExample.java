@@ -24,6 +24,18 @@ public class WhileExample {
 
 
 
+//        int n = 100;
+//        while ( n > 0 ){
+//            System.out.println( n + quote);
+//            n--;
+//        }
+
+
+
+
+
+
+
 
 
 

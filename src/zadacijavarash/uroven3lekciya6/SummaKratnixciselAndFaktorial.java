@@ -18,15 +18,27 @@ public class SummaKratnixciselAndFaktorial {
         Scanner scanner = new Scanner(System.in);
         int start = scanner.nextInt();
         int end = scanner.nextInt();
-        int multiple = scanner.nextInt();
+        int mult = scanner.nextInt();
         int sum = 0;
         for (int i = start; i < end; i++) {
-            if (i % multiple != 0) {
+            if(i % mult != 0){
                 continue;
             }
             sum = sum + i;
         }
         System.out.println(sum);
+//        Scanner scanner = new Scanner(System.in);
+//        int start = scanner.nextInt();
+//        int end = scanner.nextInt();
+//        int multiple = scanner.nextInt();
+//        int sum = 0;
+//        for (int i = start; i < end; i++) {
+//            if (i % multiple != 0) {
+//                continue;
+//            }
+//            sum = sum + i;
+//        }
+//        System.out.println(sum);
 /*
 vicislayem faktorial=faktorial 3 = 1*2*3
 int f = 1;                                     В переменной f будем хранить произведение чисел.

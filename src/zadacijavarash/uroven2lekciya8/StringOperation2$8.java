@@ -1,4 +1,4 @@
-package zadacijavarash.luroven2lekciya8;
+package zadacijavarash.uroven2lekciya8;
 
 /*
 Напиши программу, которая считывает с клавиатуры две строки и выдает сообщение о том, одинаковые ли эти строки.
@@ -12,11 +12,6 @@ import java.util.Scanner;
 
 public class StringOperation2$8 {
     public static void main(String[] args) {
-
-
-
-
-
 
 
 

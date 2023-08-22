@@ -21,9 +21,13 @@ import java.util.Scanner;
  */
 public class SkorostVetra {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int userinputmentsinsecond = scanner.nextInt();
-        double kminsecunde = ( double ) userinputmentsinsecond * 3.6;
-        System.out.println(Math.round(kminsecunde));
+//        Scanner scanner = new Scanner(System.in);
+//        int ms = scanner.nextInt();
+//        double result = ms * 3.6;
+//        System.out.println(result);
+//        Scanner scanner = new Scanner(System.in);
+//        int userinputmentsinsecond = scanner.nextInt();
+//        double kminsecunde = ( double ) userinputmentsinsecond * 3.6;
+//        System.out.println(Math.round(kminsecunde));
     }
 }

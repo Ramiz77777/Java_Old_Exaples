@@ -10,6 +10,8 @@ public class Ifdemo {
         else{
             System.out.println("cislo bolshe 100");
         }
+        double a = Math.sqrt(9);
+        System.out.println(a);
 
     }
 }
