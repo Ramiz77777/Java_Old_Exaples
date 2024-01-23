@@ -5,7 +5,7 @@ public class Chess {
         String[][] chessboard = new String[8][8];
         fillarraywithword(chessboard);
 
-
+        
 
 
     }

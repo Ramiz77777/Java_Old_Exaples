@@ -15,6 +15,7 @@ public class HashMapEx1 {
         System.out.println(map1);
         System.out.println(myStudent.hashCode());
         System.out.println(myStudent1.hashCode());
+
     }
 
 }

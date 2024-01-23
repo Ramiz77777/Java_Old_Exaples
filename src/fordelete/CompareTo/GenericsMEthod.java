@@ -18,6 +18,7 @@ public class GenericsMEthod {
         arraylist.add(4);
         int a = GenericsMEthod.firstElemetOfList(arraylist);
         System.out.println(a);
+        System.out.println();
     }
 }
 

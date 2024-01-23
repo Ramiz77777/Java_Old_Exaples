@@ -36,7 +36,11 @@ public class Students implements Comparable<Students>{
 
     @Override
     public int compareTo(Students o) {
-        return this.id-o.id;
+        int res = this.id-o.id;
+        if(res == 0){
+            res = this.age-o.age;
+        }
+        return res;
     }
     static class NameCompare implements Comparator<Students> {
 
