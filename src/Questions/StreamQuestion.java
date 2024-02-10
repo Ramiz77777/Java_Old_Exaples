@@ -26,4 +26,5 @@ public class StreamQuestion {
 //        list1.add(1);
 //        list1.stream().distinct().forEach(e-> System.out.println(e));
     }
+
 }

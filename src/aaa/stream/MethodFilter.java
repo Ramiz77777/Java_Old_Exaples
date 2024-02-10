@@ -1,11 +1,13 @@
 package aaa.stream;
 
+import java.lang.reflect.Field;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
 public class MethodFilter {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ClassNotFoundException, NoSuchFieldException {
         // внутри Predicate
         // true false возьми element and check it
         Student st1 = new Student("Ramiz",29,3);
@@ -19,7 +21,20 @@ public class MethodFilter {
         List<Student> list2 = list.stream().filter(e-> e.getAge()>30).collect(Collectors.toList());
         System.out.println(list2);
 
+
+//        Class empClass = Class.forName("stream.MethodFilter.java.Student");
+//        Field field = empClass.getField("name");
+//        System.out.println(field);
+
+
+
     }
+
+
+
+
+
+
 
 
 }

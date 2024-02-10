@@ -11,10 +11,12 @@ public class Task1 {
         TaskUtil tu = new TaskUtil();
 
         String[] calendar = {"January","February","March","April","May","June","July","August","September","October","November","December"};
-        List<String> list = new java.util.ArrayList<>(List.of(calendar));
-        Collections.reverse(list);
+        List<String> calendar1 = Arrays.asList(calendar);
 
-        System.out.println(list);
+        List<String> list = new java.util.ArrayList<>(List.of(calendar));
+        Collections.reverse(calendar1);
+
+        System.out.println(calendar1);
 
 //        System.out.println(Arrays.toString(calendar));
 //        tu.reverseWithoutAddArray(calendar);
