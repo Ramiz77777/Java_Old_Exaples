@@ -4,8 +4,6 @@ public class Info <T>{
     private T value1;
     private T value2;
 
-    private String value3;
-
 //    public Info(T value1, T value2) {
 //        this.value1 = value1;
 //        this.value2 = value2;
