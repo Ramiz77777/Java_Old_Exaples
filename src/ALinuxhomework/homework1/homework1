@@ -30,3 +30,5 @@
   29 cd
   30 history
   31 history >> history.txt
+
+  all
